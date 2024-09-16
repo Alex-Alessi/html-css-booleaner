@@ -1,0 +1,20 @@
+/* reset */
+body{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.page-header{
+    background-color: #ececed;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* header */
+.pattern{
+    width: 150px;
+    height: 45px;
+}
