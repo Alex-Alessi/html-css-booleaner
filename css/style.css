@@ -1,10 +1,12 @@
 /* reset */
 body{
-    margin: 0;
+    margin: 0px;
 }
 
 img{
-    max-width: 100%;
+    max-width: 20%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .page-header{
@@ -15,6 +17,28 @@ img{
 
 /* header */
 .pattern{
-    width: 150px;
-    height: 45px;
+    background-color: aqua;
+    width: 335px;
+    height: auto;
+    
+}
+
+.sottoimmagine{
+    background-color: aqua;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.logo{
+    width: 60px;
+    height: 20px;
+}
+
+/* main */
+
+.container{
+    width: 421.9px;
+    height: auto;
 }
