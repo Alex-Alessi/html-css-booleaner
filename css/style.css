@@ -1,44 +1,52 @@
 /* reset */
-body{
-    margin: 0px;
+body {
+  margin: 0;
 }
 
-img{
-    max-width: 20%;
-    margin: 0px;
-    padding: 0px;
+img {
+  max-width: 12%;
+  padding: 16px;
+  margin-left: -23px;
 }
 
-.page-header{
-    background-color: #ececed;
-    text-align: center;
-    padding-bottom: 15px;
+.page-header {
+  background-image: url(../img/pattern.png);
+  background-color: #5064d6;
+  background-size: 25%;
+  text-align: center;
+  padding-bottom: 15px;
+  background-position-y: 185px;
+  background-position-x: 75px;
+  height: 80px;
 }
 
 /* header */
-.pattern{
-    background-color: aqua;
-    width: 335px;
-    height: auto;
-    
-}
 
-.sottoimmagine{
-    background-color: aqua;
-    width: 400px;
-    height: auto;
-    position: absolute;
-    z-index: 1;
-}
-
-.logo{
-    width: 60px;
-    height: 20px;
+.logo {
+  height: 50px;
+  margin-top: 20px;
 }
 
 /* main */
 
-.container{
-    width: 421.9px;
-    height: auto;
+.container {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+
+.main-title {
+  font-size: 40px;
+  /* margin-left: 12px; */
+  margin-top: 0px;
+}
+
+.container1 {
+  display: flex;
+  vertical-align: auto;
+  margin-left: 12px;
+}
+
+/* .header-article {
+  vertical-align: 0%;
+} */
