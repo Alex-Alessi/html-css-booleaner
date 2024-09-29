@@ -36,7 +36,7 @@ img {
 }
 
 .main-title {
-  font-size: 40px;
+  font-size: 35px;
   /* margin-left: 12px; */
   margin-top: 0px;
 }
@@ -47,6 +47,28 @@ img {
   margin-left: 12px;
 }
 
-/* .header-article {
-  vertical-align: 0%;
-} */
+.credits {
+  margin-top: -51px;
+  color: gray;
+  align-items: baseline;
+  display: flex;
+}
+
+.author {
+  color: #5064d6e8;
+  margin-left: 3px;
+}
+
+.date {
+  color: gray;
+  margin-top: -15px;
+  font-size: 12px;
+}
+
+.figure {
+  width: 1285px;
+  height: 400px;
+}
+
+.img1 {
+}
